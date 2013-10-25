@@ -9,7 +9,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Console.Write("asd");
+            Console.Write("asd"); //sds
         }
     }
 }
