@@ -9,7 +9,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Console.Write("asd"); //aciklama degisti. bu dotnet, murat dotnete bak. bak murat bak.
+            Console.Write("asd"); //aciklama degisti. dddxxx
         }
     }
 }
