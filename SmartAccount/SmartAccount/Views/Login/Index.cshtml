@@ -1,0 +1,15 @@
+﻿@model SmartAccount.Controllers.LoginModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Login</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.TextBoxFor(s => s.UserName)
+    @Html.TextBoxFor(s => s.Password)
+    <input type ="submit" />
+    @Html.ValidationSummary();
+}

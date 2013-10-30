@@ -63,7 +63,7 @@
     <!-- Diagram content (shape and connector positions) -->
     <Diagrams>
       <Diagram Name="SmartAccountModel">
-        <EntityTypeShape EntityType="SmartAccountModel.User" Width="1.5" PointX="0.75" PointY="0.5" Height="1.59568359375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartAccountModel.User" Width="1.5" PointX="0.5" PointY="0.5" Height="1.59568359375" IsExpanded="true" />
       </Diagram>
     </Diagrams>
   </Designer>
