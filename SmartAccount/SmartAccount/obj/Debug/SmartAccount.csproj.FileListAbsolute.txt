@@ -28,3 +28,8 @@ C:\Users\sebahattin.tonbul\Desktop\GithubRep\SmartAccount\SmartAccount\bin\Syste
 C:\Users\sebahattin.tonbul\Desktop\GithubRep\SmartAccount\SmartAccount\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\sebahattin.tonbul\Desktop\GithubRep\SmartAccount\SmartAccount\obj\Debug\SmartAccount.dll
 C:\Users\sebahattin.tonbul\Desktop\GithubRep\SmartAccount\SmartAccount\obj\Debug\SmartAccount.pdb
+C:\Users\sebahattin.tonbul\Desktop\GithubRep\SmartAccount\SmartAccount\bin\Antlr3.Runtime.dll
+C:\Users\sebahattin.tonbul\Desktop\GithubRep\SmartAccount\SmartAccount\bin\System.Web.Optimization.dll
+C:\Users\sebahattin.tonbul\Desktop\GithubRep\SmartAccount\SmartAccount\bin\WebGrease.dll
+C:\Users\sebahattin.tonbul\Desktop\GithubRep\SmartAccount\SmartAccount\bin\Antlr3.Runtime.pdb
+C:\Users\sebahattin.tonbul\Desktop\GithubRep\SmartAccount\SmartAccount\bin\System.Web.Optimization.xml

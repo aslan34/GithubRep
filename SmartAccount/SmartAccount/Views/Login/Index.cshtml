@@ -8,8 +8,10 @@
 
 @using (Html.BeginForm())
 {
-    @Html.TextBoxFor(s => s.UserName)
-    @Html.TextBoxFor(s => s.Password)
-    <input type ="submit" />
-    @Html.ValidationSummary();
+    <div class="login-form">
+        <div class="login-label"></div><div class="login-input">@Html.TextBoxFor(s => s.UserName)</div>
+        <div class="login-label"></div><div class="login-input">@Html.TextBoxFor(s => s.Password)</div>
+        <div class="login-label"></div><div class="login-input"><input type ="submit" value="Giriş"/></div>
+        @Html.ValidationSummary();
+    </div>
 }

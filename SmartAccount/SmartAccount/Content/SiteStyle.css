@@ -1,2 +1,18 @@
-﻿body {
+﻿body 
+{
+    margin:0px;
+    padding:0px;
+}
+
+login-label 
+{
+    border:1px solid red;
+    width:100px;
+}
+
+login-input 
+{
+    border:1px solid black;
+    position:static;
+    float:left;
 }

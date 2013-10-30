@@ -3,4 +3,17 @@
     Layout = "~/Views/Shared/SiteMaster.cshtml";
 }
 
+@if (Request.IsAuthenticated) {
+    <text>
+        Hello, @Html.ActionLink(User.Identity.Name , "EditUser", "User", routeValues: null, htmlAttributes: new { @class = "username", title = "Manage" })!
+        <a href=@Url.Action("LogOff") >Log off</a>
+        }
+    </text>
+} else {
+    <ul>
+        <li>@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+        <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+    </ul>
+}
+
 <h2>Kullanıcının anasayfası.</h2>
